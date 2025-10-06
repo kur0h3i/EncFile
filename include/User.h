@@ -18,6 +18,8 @@ class User {
   User registrarUsuario();
   User iniciarSesion(string nombre, string password);
   void guardarUsuario();
+  bool verificarContraseña(const std::string& almacenada,
+                           const std::string& ingresada);
 
   // Getters
   string getNombre();

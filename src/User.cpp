@@ -46,7 +46,7 @@ User User::iniciarSesion(string nombre, string password) {
     throw runtime_error("No se pudo abrir el archivo de usuarios.");
   }
 
-  while (true) {
+  while (in) {
     size_t lonN, lonP;
     string n, p;
 
@@ -60,8 +60,8 @@ User User::iniciarSesion(string nombre, string password) {
     p.resize(lonP);
     if (!in.read(&p[0], lonP)) break;
 
-    // Comparar credenciales
-    if (n == nombre && p == password) {
+    // Comparar credenciales estrictamente
+    if (n == nombre && verificarContraseña(p, password)) {
       return User(n, p);  // Devolver el usuario encontrado
     }
   }
@@ -94,6 +94,15 @@ void User::guardarUsuario() {
   out.write(reinterpret_cast<const char *>(&longitudPassword),
             sizeof(longitudPassword));            // longitud de la contraseña
   out.write(password.c_str(), longitudPassword);  // contraseña en binario
+}
+
+// Función auxiliar para verificar contraseñas
+bool User::verificarContraseña(const string &almacenada,
+                               const string &ingresada) {
+  // Aquí puedes implementar lógica de comparación segura o descifrado si es
+  // necesario
+  return almacenada ==
+         ingresada;  // Comparación directa (ajustar si se usa cifrado)
 }
 
 // Getters
