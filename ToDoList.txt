@@ -16,8 +16,8 @@ dentro de una bóveda personal mediante interfaz de consola.
         /data
         main.cpp
         Makefile
-[ ] 2. Configurar Makefile básico para compilar todos los .cpp
-[ ] 3. Probar que el proyecto compila y ejecuta "Hola mundo"
+[X] 2. Configurar Makefile básico para compilar todos los .cpp
+[X] 3. Probar que el proyecto compila y ejecuta "Hola mundo"
 
 ------------------------------------------------------------
 👤 FASE 2 – GESTIÓN DE USUARIOS
