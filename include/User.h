@@ -10,16 +10,22 @@ class User {
   string nombre;
   string password;
 
+  // Métodos privados estáticos
+  static string hashPassword(const string& password);
+  static bool usuarioExiste(const string& nombre);
+
  public:
   // Constructor
   User(string nombre, string password);
 
-  // Métodos
-  User registrarUsuario();
-  User iniciarSesion(string nombre, string password);
+  // Métodos estáticos (no requieren instancia)
+  static User registrarUsuario();
+  static User iniciarSesion(string nombre, string password);
+  static bool verificarContraseña(const string& almacenada,
+                                  const string& ingresada);
+
+  // Métodos de instancia
   void guardarUsuario();
-  bool verificarContraseña(const std::string& almacenada,
-                           const std::string& ingresada);
 
   // Getters
   string getNombre();

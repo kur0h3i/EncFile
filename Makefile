@@ -1,24 +1,22 @@
-
 # Configuracion Compilador
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall -Iinclude
-LDFLAGS = -lstdc++fs
+LDFLAGS = -lssl -lcrypto
 
 # Nombre del ejecutable
 TARGET = encfile
 
 # Archivos fuente
-SRC = main.cpp \
-	src/User.cpp 
+SRC = main.cpp src/User.cpp
 
 # Reglas de compilacion
-all: 
+all:
 	$(CXX) $(CXXFLAGS) $(SRC) $(LDFLAGS) -o $(TARGET)
 
 # Ejecucion
 run: all
-	./$(TARGET)	
+	./$(TARGET)
 
 # Limpieza de archivos compilados
 clean:
-	rm -f $(TARGET) 
+	rm -f $(TARGET)
