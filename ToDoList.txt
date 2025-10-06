@@ -33,11 +33,11 @@ dentro de una bóveda personal mediante interfaz de consola.
 ------------------------------------------------------------
 📂 FASE 3 – INTERFAZ PRINCIPAL
 ------------------------------------------------------------
-[ ] 9. En main.cpp → Menú principal:
+[X] 9. En main.cpp → Menú principal:
         1. Registrarse
         2. Iniciar sesión
         3. Salir
-[ ] 10. Menú del usuario autenticado:
+[X] 10. Menú del usuario autenticado:
         1. Cifrar archivo
         2. Descifrar archivo
         3. Listar archivos cifrados
