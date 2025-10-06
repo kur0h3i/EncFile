@@ -1,17 +1,19 @@
 
 # Configuracion Compilador
 CXX = g++
-CXXFLAGS = -std=c++11 -Wall -Iinclude
+CXXFLAGS = -std=c++17 -Wall -Iinclude
+LDFLAGS = -lstdc++fs
 
 # Nombre del ejecutable
 TARGET = encfile
 
 # Archivos fuente
-SRC = main.cpp 
+SRC = main.cpp \
+	src/User.cpp 
 
 # Reglas de compilacion
 all: 
-	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET)
+	$(CXX) $(CXXFLAGS) $(SRC) $(LDFLAGS) -o $(TARGET)
 
 # Ejecucion
 run: all

@@ -22,13 +22,13 @@ dentro de una bóveda personal mediante interfaz de consola.
 ------------------------------------------------------------
 👤 FASE 2 – GESTIÓN DE USUARIOS
 ------------------------------------------------------------
-[ ] 4. Crear clase User (User.h / User.cpp)
+[X] 4. Crear clase User (User.h / User.cpp)
         - Atributos: nombre, contraseña
         - Métodos: registrarUsuario(), iniciarSesion()
-[ ] 5. Crear archivo "users.dat" dentro de /data/
-[ ] 6. Implementar guardado y lectura binaria de usuarios
-[ ] 7. Comprobar registro e inicio de sesión en consola
-[ ] 8. Crear carpeta individual por usuario: /data/<nombre_usuario>/
+[X] 5. Crear archivo "users.dat" dentro de /data/
+[X] 6. Implementar guardado y lectura binaria de usuarios
+[X] 7. Comprobar registro e inicio de sesión en consola
+[X] 8. Crear carpeta individual por usuario: /data/<nombre_usuario>/
 
 ------------------------------------------------------------
 📂 FASE 3 – INTERFAZ PRINCIPAL

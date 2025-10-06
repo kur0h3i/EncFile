@@ -8,15 +8,16 @@ class User {
  private:
   // Atributos
   string nombre;
-  string contraseña;
+  string password;
 
  public:
   // Constructor
-  User(string nombre, string& contraseña);
+  User(string nombre, string password);
   // Metodos
-  User registarUsuario();
-  bool iniciarSesion();
-  void guardarUsuario();  // Getters
+  static User registarUsuario();
+  static bool iniciarSesion(string nombre, string password);
+  void guardarUsuario();
+  // Getters
   string getNombre();
   string getContraseña();
 };
