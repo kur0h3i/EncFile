@@ -12,55 +12,61 @@ User::User(string nombre, string password) {
 }
 
 // Metodos
-User User::registarUsuario() {
+User User::registrarUsuario() {
   string nombre;
   string password;
 
-  cout << "Nombre : ";
-  cin >> nombre;
-  cout << "Contraseña : ";
-  cin >> password;
+  do {
+    cout << "Nombre : ";
+    cin >> nombre;
+    if (nombre.empty()) {
+      cout << "El nombre no puede estar vacío. Inténtalo de nuevo.\n";
+    }
+  } while (nombre.empty());
+
+  do {
+    cout << "Contraseña : ";
+    cin >> password;
+    if (password.empty()) {
+      cout << "La contraseña no puede estar vacía. Inténtalo de nuevo.\n";
+    }
+  } while (password.empty());
 
   User u(nombre, password);
-  if (iniciarSesion(nombre, password)) {
-    cout << "Usuario ya existe";
-  } else {
-    u.guardarUsuario();
-    cout << "Registrado Correctamente\n";
-    }
+  u.guardarUsuario();
+  cout << "Registrado Correctamente\n";
   return u;
 }
 
-bool User::iniciarSesion(string nombre, string password) {
+User User::iniciarSesion(string nombre, string password) {
   // Abrir el archivo binario de usuarios
   ifstream in("data/users.dat", ios::binary);
-  if (!in) return false;
+  if (!in) {
+    cerr << "ERROR: No se pudo abrir el archivo de usuarios.\n";
+    throw runtime_error("No se pudo abrir el archivo de usuarios.");
+  }
 
   while (true) {
     size_t lonN, lonP;
     string n, p;
 
     // Leer la longitud del nombre
-    in.read(reinterpret_cast<char *>(&lonN), sizeof(lonN));
-    if (in.eof()) break;
-
-    // Deserialización binaria:
-    // Leemos primero la longitud y luego el nombre en binario
+    if (!in.read(reinterpret_cast<char *>(&lonN), sizeof(lonN))) break;
     n.resize(lonN);
-    in.read(&n[0], lonN);
+    if (!in.read(&n[0], lonN)) break;
 
     // Leer la longitud de la contraseña
-    in.read(reinterpret_cast<char *>(&lonP), sizeof(lonP));
-    if (in.eof()) break;
-
-    // Deserialización binaria:
-    // Leemos primero la longitud y luego la contraeña en binario
+    if (!in.read(reinterpret_cast<char *>(&lonP), sizeof(lonP))) break;
     p.resize(lonP);
-    in.read(&p[0], lonP);
+    if (!in.read(&p[0], lonP)) break;
 
-    if (n == nombre && p == password) return true;
+    // Comparar credenciales
+    if (n == nombre && p == password) {
+      return User(n, p);  // Devolver el usuario encontrado
+    }
   }
-  return false;
+
+  throw invalid_argument("Credenciales inválidas o usuario no encontrado.");
 }
 
 void User::guardarUsuario() {
