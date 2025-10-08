@@ -1,0 +1,4 @@
+Este es un archivo de prueba para el descifrado en carpeta de usuario.
+El contenido será cifrado y luego descifrado automáticamente en la carpeta del usuario.
+
+¡Nueva funcionalidad implementada correctamente!

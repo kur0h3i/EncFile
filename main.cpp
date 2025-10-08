@@ -1,6 +1,11 @@
+#include <exception>
 #include <iostream>
+#include <string>
 
 #include "User.h"
+#include "Vault.h"
+
+using namespace std;
 
 int main() {
   int opcion = 0;
@@ -8,11 +13,11 @@ int main() {
   bool autenticado = false;
 
   do {
-    cout << "1. Registrarse" << '\n'
-         << "2. Iniciar Sesion" << '\n'
-         << "3. Salir" << '\n'
-         << ">> ";
-    cin >> opcion;
+    std::cout << "1. Registrarse" << '\n'
+              << "2. Iniciar Sesion" << '\n'
+              << "3. Salir" << '\n'
+              << ">> ";
+    std::cin >> opcion;
 
     // Panel Autenticacion
     switch (opcion) {
@@ -23,30 +28,33 @@ int main() {
       }
       case 2: {
         // Login: pedir credenciales y verificar
-        string nombre, contrasena;
-        cout << "Usuario: ";
-        cin >> nombre;
-        cout << "Contrasena: ";
-        cin >> contrasena;
+        std::string nombre, contrasena;
+        std::cout << "Usuario: ";
+        std::cin >> nombre;
+        std::cout << "Contrasena: ";
+        std::cin >> contrasena;
         try {
           user = user.iniciarSesion(nombre, contrasena);
           autenticado = true;
-          cout << "Login OK\n";
-        } catch (exception& e) {
-          cout << e.what() << "\n";
+          std::cout << "Login OK\n";
+        } catch (std::exception& e) {
+          std::cout << e.what() << "\n";
         }
         break;
       }
       case 3:
-        cout << "Saliendo...\n";
+        std::cout << "Saliendo...\n";
         break;
       default:
-        cout << "Opcion no valida\n";
+        std::cout << "Opcion no valida\n";
         break;
     }
 
-    // Autenticad
+    // Autenticado - Crear instancia de Vault para el usuario
     while (autenticado) {
+      string nombreUsuario = user.getNombre();
+      Vault vault(nombreUsuario);
+
       int subOpcion = 0;
       cout << "--------------------\n"
            << "Usuario : " << user.getNombre() << '\n'
@@ -61,25 +69,94 @@ int main() {
 
       // Menu
       switch (subOpcion) {
-        case 1:
+        case 1: {
           // Cifrar Archivos
+          string rutaArchivo, clave;
+          cout << "Ingrese la ruta completa del archivo a cifrar: ";
+          cin.ignore();  // Limpiar buffer
+          getline(cin, rutaArchivo);
+          cout << "Ingrese la clave para cifrar: ";
+          getline(cin, clave);
+
+          try {
+            vault.cifrarArchivo(rutaArchivo, clave);
+            cout << "Archivo cifrado exitosamente.\n";
+          } catch (const exception& e) {
+            cout << "Error al cifrar el archivo: " << e.what() << "\n";
+          }
           break;
-        case 2:
+        }
+        case 2: {
           // Descifrar Archivos
+          string nombreArchivo, clave;
+          int opcionDestino;
+
+          cout << "Ingrese el nombre del archivo cifrado (sin .enc): ";
+          cin.ignore();  // Limpiar buffer
+          getline(cin, nombreArchivo);
+          cout << "Ingrese la clave para descifrar: ";
+          getline(cin, clave);
+
+          cout << "\n¿Dónde desea guardar el archivo descifrado?\n";
+          cout << "1. En mi carpeta personal (data/" << user.getNombre()
+               << "/)\n";
+          cout << "2. En una ubicación específica\n";
+          cout << ">> ";
+          cin >> opcionDestino;
+
+          try {
+            if (opcionDestino == 1) {
+              // Descifrar en la carpeta del usuario
+              vault.descifrarArchivo(nombreArchivo, clave);
+              cout << "Archivo descifrado exitosamente en data/"
+                   << user.getNombre() << "/" << nombreArchivo << "\n";
+            } else {
+              // Descifrar en ubicación específica
+              string rutaDestino;
+              cout << "Ingrese la ruta donde guardar el archivo descifrado: ";
+              cin.ignore();  // Limpiar buffer
+              getline(cin, rutaDestino);
+              vault.descifrarArchivo(nombreArchivo, clave, rutaDestino);
+              cout << "Archivo descifrado exitosamente en " << rutaDestino
+                   << "\n";
+            }
+          } catch (const exception& e) {
+            cout << "Error al descifrar el archivo: " << e.what() << "\n";
+          }
           break;
-        case 3:
+        }
+        case 3: {
           // Listar Archivos Cifrados
+          try {
+            cout << "Archivos cifrados:\n";
+            vault.listarArchivosCifrados();
+          } catch (const exception& e) {
+            cout << "Error al listar archivos: " << e.what() << "\n";
+          }
           break;
-        case 4:
+        }
+        case 4: {
           // Eliminar Archivo
+          string nombreArchivo;
+          cout << "Ingrese el nombre del archivo a eliminar (sin .enc): ";
+          cin.ignore();  // Limpiar buffer
+          getline(cin, nombreArchivo);
+
+          try {
+            vault.eliminarArchivo(nombreArchivo);
+            cout << "Archivo eliminado exitosamente.\n";
+          } catch (const exception& e) {
+            cout << "Error al eliminar el archivo: " << e.what() << "\n";
+          }
           break;
+        }
         case 5:
           // Cerrar Sesion
           autenticado = false;
-          cout << "Sesión cerrada.\n";
+          std::cout << "Sesión cerrada.\n";
           break;
         default:
-          cout << "Opción no válida.\n";
+          std::cout << "Opción no válida.\n";
           break;
       }
     }

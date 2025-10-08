@@ -1,0 +1,765 @@
+{
+  "experimentos": [
+    {
+      "experimento": {
+        "nombre": "Volcán mágico de espuma",
+        "tiempo_estimado": "15 minutos",
+        "dificultad": 3,
+        "descripcion": "Crearemos un volcán que despierta y lanza lava de espuma 🌋🫧. ¡No quema, pero es igual de divertido!",
+        "informacion_adicional": "Los volcanes de verdad guardan magma y gases dentro. Cuando no pueden contenerlos, hacen erupción. En nuestro experimento usamos bicarbonato y vinagre para simular la erupción de forma segura y divertida.",
+        "materiales": [
+          "✨ Bicarbonato de sodio",
+          "💧 Vinagre",
+          "🎨 Colorante rojo (opcional)",
+          "🏔️ Recipiente o botella",
+          "🍽️ Bandeja para contener la espuma"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Construye tu montaña",
+            "imagen": "img/paso1.png",
+            "explicacion": "Coloca la botella en la bandeja y decórala como un volcán. ¡Está lista para despertar! 🏔️✨"
+          },
+          {
+            "numero": 2,
+            "titulo": "Pon la lava dormida",
+            "imagen": "img/paso2.png",
+            "explicacion": "Añade 2-3 cucharadas de bicarbonato. Es la lava que duerme dentro del volcán 😴."
+          },
+          {
+            "numero": 3,
+            "titulo": "Despierta al volcán",
+            "imagen": "img/paso3.png",
+            "explicacion": "Vierte vinagre sobre el bicarbonato y observa la espuma salir como lava mágica 🌋🫧."
+          },
+          {
+            "numero": 4,
+            "titulo": "Observa la erupción",
+            "imagen": "img/paso4.png",
+            "explicacion": "Mira cómo el volcán burbujea y se llena de espuma. ¡Es ciencia mágica! ✨"
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Arcoíris en vaso",
+        "tiempo_estimado": "10 minutos",
+        "dificultad": 1,
+        "descripcion": "Crea un arcoíris líquido 🌈 en un vaso usando agua y azúcar.",
+        "informacion_adicional": "La densidad es como el peso secreto del agua. Los líquidos más pesados se quedan abajo y los más ligeros arriba.",
+        "materiales": [
+          "💧 Vasos transparentes",
+          "🎨 Colorantes",
+          "🍬 Azúcar",
+          "🥄 Cucharas"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Prepara los vasos",
+            "imagen": "img/paso1.png",
+            "explicacion": "Llena 3 vasos con agua y azúcar en distintas cantidades. Cada vaso tendrá un peso diferente 🧪."
+          },
+          {
+            "numero": 2,
+            "titulo": "Añade los colores",
+            "imagen": "img/paso2.png",
+            "explicacion": "Colorea cada vaso con un color distinto. ¡Tus aguas se visten de fiesta! 🎨🎉"
+          },
+          {
+            "numero": 3,
+            "titulo": "Crea el arcoíris",
+            "imagen": "img/paso3.png",
+            "explicacion": "Vierte lentamente los vasos en uno final y mira cómo se forman capas mágicas 🌈✨."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Lámpara de lava casera",
+        "tiempo_estimado": "15 minutos",
+        "dificultad": 2,
+        "descripcion": "Burbujas mágicas que suben y bajan como en una lámpara 🔮💧.",
+        "informacion_adicional": "El aceite y el agua son amigos que no se mezclan. La pastilla efervescente genera burbujas que mueven el agua.",
+        "materiales": [
+          "🧴 Botella transparente",
+          "🌻 Aceite",
+          "💧 Agua",
+          "🎨 Colorante",
+          "💊 Pastilla efervescente"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Prepara la botella",
+            "imagen": "img/paso1.png",
+            "explicacion": "Llena 3/4 de aceite y 1/4 de agua coloreada. ✨"
+          },
+          {
+            "numero": 2,
+            "titulo": "Activa la magia",
+            "imagen": "img/paso2.png",
+            "explicacion": "Añade la pastilla efervescente y observa cómo las burbujas suben y bajan 🫧."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Leche mágica de colores",
+        "tiempo_estimado": "5 minutos",
+        "dificultad": 1,
+        "descripcion": "Colores que bailan solos en la leche 🥛🎨.",
+        "informacion_adicional": "El jabón rompe la grasa de la leche y hace que los colores se muevan como por arte de magia.",
+        "materiales": [
+          "🥛 Plato con leche",
+          "🎨 Colorantes",
+          "🧼 Jabón líquido",
+          "🧵 Bastoncillo"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Pon los colores",
+            "imagen": "img/paso1.png",
+            "explicacion": "Coloca gotas de colorante sobre la leche. Cada gota es un pequeño mago 🎨✨."
+          },
+          {
+            "numero": 2,
+            "titulo": "Activa la magia",
+            "imagen": "img/paso2.png",
+            "explicacion": "Toca con bastoncillo mojado en jabón y mira cómo los colores bailan solos 🫧."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Globo que se infla solo",
+        "tiempo_estimado": "10 minutos",
+        "dificultad": 2,
+        "descripcion": "El globo se infla sin soplar 🎈✨.",
+        "informacion_adicional": "El vinagre y bicarbonato crean gas que empuja el globo como por magia.",
+        "materiales": [
+          "🎈 Globo",
+          "🥤 Botella",
+          "💧 Vinagre",
+          "✨ Bicarbonato"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Prepara la botella",
+            "imagen": "img/paso1.png",
+            "explicacion": "Llena la botella con vinagre."
+          },
+          {
+            "numero": 2,
+            "titulo": "Prepara el globo",
+            "imagen": "img/paso2.png",
+            "explicacion": "Pon bicarbonato dentro del globo con una cucharita."
+          },
+          {
+            "numero": 3,
+            "titulo": "Inflado mágico",
+            "imagen": "img/paso3.png",
+            "explicacion": "Coloca el globo en la botella y deja caer el bicarbonato. ¡Mira cómo se infla solo! 🎈🫧"
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Agua que camina",
+        "tiempo_estimado": "20 minutos",
+        "dificultad": 3,
+        "descripcion": "El agua coloreada caminará de un vaso a otro 🏃‍♂️💧.",
+        "informacion_adicional": "El papel de cocina actúa como puente mágico que transporta el agua de un vaso a otro.",
+        "materiales": [
+          "💧 3 vasos",
+          "🎨 Colorantes",
+          "📜 Papel de cocina"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Prepara los vasos",
+            "imagen": "img/paso1.png",
+            "explicacion": "Llena dos vasos con agua coloreada y deja el vaso del medio vacío."
+          },
+          {
+            "numero": 2,
+            "titulo": "Corta el papel",
+            "imagen": "img/paso2.png",
+            "explicacion": "Coloca tiras de papel que unan los vasos, como puentes mágicos 🌉."
+          },
+          {
+            "numero": 3,
+            "titulo": "Observa la caminata",
+            "imagen": "img/paso3.png",
+            "explicacion": "Espera unos minutos y verás cómo el agua camina y se mezcla 🌈✨."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Huevo saltarín",
+        "tiempo_estimado": "24 horas",
+        "dificultad": 4,
+        "descripcion": "Huevo elástico que rebota un poquito 🥚✨.",
+        "informacion_adicional": "El vinagre disuelve la cáscara y deja la membrana flexible.",
+        "materiales": [
+          "🥚 Huevo crudo",
+          "💧 Vaso",
+          "🌿 Vinagre"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Pon el huevo en vinagre",
+            "imagen": "img/paso1.png",
+            "explicacion": "Introduce el huevo y observa burbujas 🫧."
+          },
+          {
+            "numero": 2,
+            "titulo": "Espera 24h",
+            "imagen": "img/paso2.png",
+            "explicacion": "Las burbujas muestran que la magia ocurre."
+          },
+          {
+            "numero": 3,
+            "titulo": "El huevo mágico",
+            "imagen": "img/paso3.png",
+            "explicacion": "Saca el huevo y prueba a rebotarlo suavemente 🥚✨."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Cohete de globo",
+        "tiempo_estimado": "10 minutos",
+        "dificultad": 1,
+        "descripcion": "El globo se convierte en cohete 🚀.",
+        "informacion_adicional": "El aire que sale del globo lo empuja por un hilo como un cohete mágico.",
+        "materiales": [
+          "🎈 Globo",
+          "📎 Pajita",
+          "🧵 Hilo largo",
+          "📎 Cinta adhesiva"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Prepara el hilo",
+            "imagen": "img/paso1.png",
+            "explicacion": "Pasa el hilo por la pajita y sujeta entre dos puntos."
+          },
+          {
+            "numero": 2,
+            "titulo": "Prepara el globo",
+            "imagen": "img/paso2.png",
+            "explicacion": "Infla el globo sin atar y pégalo a la pajita."
+          },
+          {
+            "numero": 3,
+            "titulo": "Despegue",
+            "imagen": "img/paso3.png",
+            "explicacion": "Suelta el globo y mira cómo viaja 🚀."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Botella tornado",
+        "tiempo_estimado": "5 minutos",
+        "dificultad": 1,
+        "descripcion": "Crearemos un mini tornado 🌪️ en una botella de plástico.",
+        "informacion_adicional": "El movimiento en espiral hace que el agua forme un vórtice, igual que un tornado de verdad, pero pequeñito y seguro.",
+        "materiales": [
+          "🥤 Botella de plástico",
+          "💧 Agua",
+          "✨ Purpurina (opcional)"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Llena la botella",
+            "imagen": "img/paso1.png",
+            "explicacion": "Llena la botella casi hasta arriba con agua. Puedes añadir purpurina para que el tornado brille ✨."
+          },
+          {
+            "numero": 2,
+            "titulo": "Agita y observa",
+            "imagen": "img/paso2.png",
+            "explicacion": "Haz círculos rápidos y mira cómo se forma un tornado dentro 🌪️💧."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Esqueleto flexible",
+        "tiempo_estimado": "48 horas",
+        "dificultad": 4,
+        "descripcion": "Hueso de pollo que se vuelve flexible 🍗🫧.",
+        "informacion_adicional": "El vinagre disuelve el calcio del hueso y lo deja flexible, como si fuera de goma.",
+        "materiales": [
+          "🍗 Hueso de pollo cocido",
+          "💧 Vaso",
+          "🌿 Vinagre"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Introduce el hueso",
+            "imagen": "img/paso1.png",
+            "explicacion": "Pon el hueso en un vaso con vinagre."
+          },
+          {
+            "numero": 2,
+            "titulo": "Espera 48 horas",
+            "imagen": "img/paso2.png",
+            "explicacion": "Deja el hueso en vinagre dos días. La magia química ocurre lentamente 🧪✨."
+          },
+          {
+            "numero": 3,
+            "titulo": "Hueso flexible",
+            "imagen": "img/paso3.png",
+            "explicacion": "Saca el hueso y comprueba cómo se dobla un poco sin romperse 🫧."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Goma de borrar casera",
+        "tiempo_estimado": "20 minutos",
+        "dificultad": 3,
+        "descripcion": "Con maicena y agua haremos una pasta que borra lápiz ✏️🖐️.",
+        "informacion_adicional": "La mezcla se convierte en una masa gomosa capaz de arrastrar grafito, como una goma de borrar mágica.",
+        "materiales": [
+          "🌽 Maicena",
+          "💧 Agua",
+          "🥄 Cucharas",
+          "🍶 Recipiente"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Haz la mezcla",
+            "imagen": "img/paso1.png",
+            "explicacion": "Mezcla maicena y agua hasta obtener una pasta firme."
+          },
+          {
+            "numero": 2,
+            "titulo": "Prueba tu goma",
+            "imagen": "img/paso2.png",
+            "explicacion": "Cuando se seque un poco, úsala para borrar trazos de lápiz 📝✨."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Cristales de sal mágicos",
+        "tiempo_estimado": "3 días",
+        "dificultad": 5,
+        "descripcion": "Formaremos cristales brillantes de sal 🧂✨.",
+        "informacion_adicional": "Cuando el agua se evapora, la sal se queda formando cristales hermosos y mágicos.",
+        "materiales": [
+          "💧 Agua caliente",
+          "🧂 Sal",
+          "🧵 Hilo o palito",
+          "🥤 Vaso"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Disuelve la sal",
+            "imagen": "img/paso1.png",
+            "explicacion": "Disuelve mucha sal en agua caliente hasta que no admita más."
+          },
+          {
+            "numero": 2,
+            "titulo": "Prepara el hilo",
+            "imagen": "img/paso2.png",
+            "explicacion": "Cuelga un hilo dentro del vaso con la solución."
+          },
+          {
+            "numero": 3,
+            "titulo": "Espera y observa",
+            "imagen": "img/paso3.png",
+            "explicacion": "Después de 3 días verás cristales formados en el hilo. ¡Como joyas mágicas! 💎✨"
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Pegamento invisible",
+        "tiempo_estimado": "15 minutos",
+        "dificultad": 3,
+        "descripcion": "Con leche y vinagre obtendremos un material pegajoso 🥛🫧.",
+        "informacion_adicional": "El vinagre corta la leche formando caseína, que actúa como pegamento invisible.",
+        "materiales": [
+          "🥛 Leche",
+          "🌿 Vinagre",
+          "🥄 Colador"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Corta la leche",
+            "imagen": "img/paso1.png",
+            "explicacion": "Añade vinagre a la leche caliente y observa cómo se separa."
+          },
+          {
+            "numero": 2,
+            "titulo": "Cuela y seca",
+            "imagen": "img/paso2.png",
+            "explicacion": "Cuela los grumos y déjalos secar. Se convertirán en masa pegajosa."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Flor que se abre sola",
+        "tiempo_estimado": "5 minutos",
+        "dificultad": 1,
+        "descripcion": "Una flor de papel se abrirá sola 🌸💧.",
+        "informacion_adicional": "El papel se expande al mojarse y hace que los pétalos se abran, como magia.",
+        "materiales": [
+          "📄 Papel",
+          "✂️ Tijeras",
+          "💧 Agua en un plato"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Haz la flor",
+            "imagen": "img/paso1.png",
+            "explicacion": "Recorta una flor de papel y dobla los pétalos hacia adentro."
+          },
+          {
+            "numero": 2,
+            "titulo": "Abre la flor",
+            "imagen": "img/paso2.png",
+            "explicacion": "Pon la flor en el agua y observa cómo se abre sola 🌸✨."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Moneda que desaparece",
+        "tiempo_estimado": "5 minutos",
+        "dificultad": 1,
+        "descripcion": "Haz que una moneda desaparezca bajo un vaso 💰🥤.",
+        "informacion_adicional": "La refracción de la luz en el agua hace que la moneda no se vea. ¡Magia visual!",
+        "materiales": [
+          "💰 Moneda",
+          "🥤 Vaso transparente",
+          "💧 Agua"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Coloca la moneda",
+            "imagen": "img/paso1.png",
+            "explicacion": "Pon la moneda bajo el vaso vacío."
+          },
+          {
+            "numero": 2,
+            "titulo": "Agua mágica",
+            "imagen": "img/paso2.png",
+            "explicacion": "Llena el vaso con agua y mira cómo desaparece 💧✨."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Slime brillante espacial",
+        "tiempo_estimado": "15 minutos",
+        "dificultad": 3,
+        "descripcion": "Masa pegajosa que brilla como las estrellas ⭐🫧.",
+        "informacion_adicional": "El pegamento y el activador se unen para crear una sustancia elástica que puede brillar en la oscuridad como el espacio.",
+        "materiales": [
+          "🧴 Pegamento blanco",
+          "🧂 Activador (solución de lentillas)",
+          "✨ Pintura brillante fosforescente",
+          "🎨 Colorante (opcional)",
+          "🥄 Recipiente para mezclar"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Mezcla espacial",
+            "imagen": "img/paso1.png",
+            "explicacion": "Mezcla pegamento con pintura brillante hasta que brille como las estrellas ⭐."
+          },
+          {
+            "numero": 2,
+            "titulo": "Activa la magia",
+            "imagen": "img/paso2.png",
+            "explicacion": "Añade activador poco a poco mientras mezclas hasta que se forme el slime 🫧."
+          },
+          {
+            "numero": 3,
+            "titulo": "Prueba en la oscuridad",
+            "imagen": "img/paso3.png",
+            "explicacion": "Apaga las luces y verás tu slime brillar como la galaxia ✨🌌."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Nieve artificial instantánea",
+        "tiempo_estimado": "3 minutos",
+        "dificultad": 1,
+        "descripcion": "Crea nieve mágica que no se derrite ❄️✨.",
+        "informacion_adicional": "Los polímeros absorben muchísima agua y se hinchan como copos de nieve mágicos que duran para siempre.",
+        "materiales": [
+          "❄️ Polímero absorbente (pañales)",
+          "💧 Agua fría",
+          "🥄 Recipiente grande"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Saca la magia",
+            "imagen": "img/paso1.png",
+            "explicacion": "Corta un pañal y saca el polvo blanco mágico que está dentro ❄️."
+          },
+          {
+            "numero": 2,
+            "titulo": "Añade agua helada",
+            "imagen": "img/paso2.png",
+            "explicacion": "Vierte agua fría poco a poco y observa cómo se forma la nieve instantánea 💧❄️."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Tinta invisible que aparece",
+        "tiempo_estimado": "10 minutos",
+        "dificultad": 3,
+        "descripcion": "Escribe mensajes secretos que aparecen con calor 🕵️‍♂️✨.",
+        "informacion_adicional": "El jugo de limón se oscurece cuando se calienta, revelando mensajes ocultos como magia.",
+        "materiales": [
+          "🍋 Jugo de limón",
+          "📝 Papel blanco",
+          "🖊️ Bastoncillo o pincel",
+          "🔥 Fuente de calor (plancha de adulto)"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Escribe el secreto",
+            "imagen": "img/paso1.png",
+            "explicacion": "Moja el bastoncillo en jugo de limón y escribe tu mensaje secreto 🕵️‍♂️."
+          },
+          {
+            "numero": 2,
+            "titulo": "Deja secar",
+            "imagen": "img/paso2.png",
+            "explicacion": "Espera a que el papel se seque completamente. ¡El mensaje desaparece!"
+          },
+          {
+            "numero": 3,
+            "titulo": "Revela la magia",
+            "imagen": "img/paso3.png",
+            "explicacion": "Con ayuda de un adulto, acerca el papel al calor y mira aparecer tu mensaje ✨."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Jardín de cristales de colores",
+        "tiempo_estimado": "1 semana",
+        "dificultad": 5,
+        "descripcion": "Haz crecer un jardín mágico de cristales multicolor 🌸💎.",
+        "informacion_adicional": "Los cristales crecen cuando el agua se evapora y las partículas se juntan formando estructuras hermosas como flores de piedra.",
+        "materiales": [
+          "🧂 Sal de diferentes tipos",
+          "💧 Agua caliente",
+          "🎨 Colorantes alimentarios",
+          "🧵 Hilos o palitos",
+          "🥤 Varios frascos"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Prepara las flores",
+            "imagen": "img/paso1.png",
+            "explicacion": "Haz soluciones saturadas de sal con diferentes colores en cada frasco 🌈."
+          },
+          {
+            "numero": 2,
+            "titulo": "Planta las semillas",
+            "imagen": "img/paso2.png",
+            "explicacion": "Cuelga hilos en cada solución como si fuesen tallos de flores 🌸."
+          },
+          {
+            "numero": 3,
+            "titulo": "Cuida tu jardín",
+            "imagen": "img/paso3.png",
+            "explicacion": "Durante una semana verás crecer flores de cristal de colores 💎✨."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Burbujas cuadradas imposibles",
+        "tiempo_estimado": "20 minutos",
+        "dificultad": 3,
+        "descripcion": "Crea burbujas con formas geométricas mágicas 🔷🫧.",
+        "informacion_adicional": "Las burbujas siempre buscan la forma más pequeña posible, pero con estructuras especiales podemos engañarlas para que sean cuadradas.",
+        "materiales": [
+          "🧼 Jabón líquido",
+          "💧 Agua",
+          "🍯 Glicerina",
+          "📎 Alambre o limpiapipas",
+          "🥄 Recipiente para mezclar"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Poción de burbujas",
+            "imagen": "img/paso1.png",
+            "explicacion": "Mezcla jabón, agua y glicerina para crear burbujas súper resistentes 🫧."
+          },
+          {
+            "numero": 2,
+            "titulo": "Molde mágico",
+            "imagen": "img/paso2.png",
+            "explicacion": "Dobla el alambre creando un cubo pequeño como molde 🔷."
+          },
+          {
+            "numero": 3,
+            "titulo": "Burbuja imposible",
+            "imagen": "img/paso3.png",
+            "explicacion": "Moja el cubo en la solución y sopla suavemente. ¡Burbujas cuadradas! ✨"
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Fuego frío que no quema",
+        "tiempo_estimado": "5 minutos",
+        "dificultad": 5,
+        "descripcion": "Llama azul que puedes tocar sin quemarte 🔥❄️.",
+        "informacion_adicional": "El alcohol arde a temperatura más baja y se puede tocar brevemente sin quemarse, pero siempre con un adulto presente.",
+        "materiales": [
+          "🍶 Alcohol gel desinfectante",
+          "🧂 Sal común",
+          "🔥 Encendedor (solo adultos)",
+          "🥄 Cuchara metálica"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Mezcla mágica",
+            "imagen": "img/paso1.png",
+            "explicacion": "Con un adulto, pon alcohol gel en la cuchara y añade un poquito de sal 🧂."
+          },
+          {
+            "numero": 2,
+            "titulo": "Fuego azul",
+            "imagen": "img/paso2.png",
+            "explicacion": "El adulto enciende la mezcla y aparece una llama azul mágica 🔥✨."
+          },
+          {
+            "numero": 3,
+            "titulo": "Toca el fuego",
+            "imagen": "img/paso3.png",
+            "explicacion": "Muy rápido y con cuidado, puedes tocar la llama. ¡Es fuego frío! ❄️"
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Agua que flota en el aire",
+        "tiempo_estimado": "15 minutos",
+        "dificultad": 3,
+        "descripcion": "Haz que el agua flote como si fuera magia 💧🎈.",
+        "informacion_adicional": "El aire puede sostener gotas de agua cuando está en movimiento rápido, como en los experimentos de Bernoulli.",
+        "materiales": [
+          "💨 Secador de pelo",
+          "🏓 Pelota de ping pong",
+          "💧 Spray con agua",
+          "🎈 Globo inflado"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Pelota flotante",
+            "imagen": "img/paso1.png",
+            "explicacion": "Con el secador hacia arriba, haz que la pelota flote en el aire 🏓💨."
+          },
+          {
+            "numero": 2,
+            "titulo": "Añade agua mágica",
+            "imagen": "img/paso2.png",
+            "explicacion": "Rocía agua suavemente cerca del aire y verás gotas flotando 💧✨."
+          },
+          {
+            "numero": 3,
+            "titulo": "Globo que vuela",
+            "imagen": "img/paso3.png",
+            "explicacion": "Prueba con el globo y observa cómo también puede flotar 🎈."
+          }
+        ]
+      }
+    },
+    {
+      "experimento": {
+        "nombre": "Huella dactilar invisible revelada",
+        "tiempo_estimado": "10 minutos",
+        "dificultad": 1,
+        "descripcion": "Descubre huellas secretas como un detective 🕵️‍♀️✨.",
+        "informacion_adicional": "Nuestros dedos siempre dejan grasa invisible que se puede revelar con polvo especial, igual que hacen los detectives.",
+        "materiales": [
+          "✏️ Lápiz y papel",
+          "🖐️ Tus dedos",
+          "🥄 Cacao en polvo",
+          "🖌️ Pincel suave",
+          "📱 Superficie lisa (vaso, teléfono)"
+        ],
+        "pasos": [
+          {
+            "numero": 1,
+            "titulo": "Deja tu huella",
+            "imagen": "img/paso1.png",
+            "explicacion": "Toca una superficie lisa con el dedo para dejar tu huella invisible 🖐️."
+          },
+          {
+            "numero": 2,
+            "titulo": "Espolvorea magia",
+            "imagen": "img/paso2.png",
+            "explicacion": "Con el pincel, espolvorea cacao suavemente sobre la superficie ✨."
+          },
+          {
+            "numero": 3,
+            "titulo": "Revela el misterio",
+            "imagen": "img/paso3.png",
+            "explicacion": "¡Tu huella aparece como por arte de magia! Eres un detective 🕵️‍♀️."
+          }
+        ]
+      }
+    }
+  ]
+}

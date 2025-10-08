@@ -7,7 +7,7 @@ LDFLAGS = -lssl -lcrypto
 TARGET = encfile
 
 # Archivos fuente
-SRC = main.cpp src/User.cpp
+SRC = main.cpp src/User.cpp src/Vault.cpp
 
 # Reglas de compilacion
 all:

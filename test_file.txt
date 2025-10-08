@@ -1,0 +1,4 @@
+Este es un archivo de prueba para el sistema de cifrado EncFile.
+Contiene texto que será cifrado y descifrado para verificar el funcionamiento.
+
+¡El proyecto EncFile funciona correctamente!

@@ -155,9 +155,6 @@ void User::guardarUsuario() {
   // Crear directorio si no existe
   try {
     filesystem::create_directories("data");
-    if (!nombre.empty()) {
-      filesystem::create_directories("data/" + nombre);
-    }
   } catch (const filesystem::filesystem_error& e) {
     cerr << "ERROR al crear directorios: " << e.what() << endl;
     return;
