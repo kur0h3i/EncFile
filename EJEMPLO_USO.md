@@ -51,10 +51,3 @@ Ingrese la clave para descifrar: clavesecreta
 **En el directorio `data/Juan/`**:
 - `documento.txt.enc` (cifrado)
 - `documento.txt` (descifrado - ¡NUEVO!)
-
-## Ventajas de esta funcionalidad:
-
-✅ **Más conveniente**: No necesitas recordar rutas complejas
-✅ **Más seguro**: Los archivos quedan en tu espacio personal
-✅ **Más organizado**: Todo en una carpeta por usuario
-✅ **Flexible**: Aún puedes elegir ubicación específica si lo deseas
